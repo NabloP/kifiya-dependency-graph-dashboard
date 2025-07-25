@@ -1,0 +1,242 @@
+[
+  {
+    "id": "DSP.1",
+    "name": "Data Ingestion & Integration",
+    "x": 0,
+    "y": 1.655,
+    "group": "Foundational",
+    "color": "#d5e8d4",
+    "border": "#82b366",
+    "label": "Data Ingestion &\nIntegration"
+  },
+  {
+    "id": "DSP.2",
+    "name": "Data Quality & Validation",
+    "x": 1,
+    "y": 1.385,
+    "group": "Tier 1 Dependency",
+    "color": "#d5e8d4",
+    "border": "#82b366",
+    "label": "Data Quality &\nValidation"
+  },
+  {
+    "id": "DSP.3",
+    "name": "Data Lineage & Provenance",
+    "x": 1,
+    "y": 1.54,
+    "group": "Tier 1 Dependency",
+    "color": "#d5e8d4",
+    "border": "#82b366",
+    "label": "Data Lineage &\nProvenance"
+  },
+  {
+    "id": "DSP.4",
+    "name": "Platform Reliability & Observability",
+    "x": 0,
+    "y": 1.885,
+    "group": "Foundational",
+    "color": "#d5e8d4",
+    "border": "#82b366",
+    "label": "Platform Reliability &\nObservability"
+  },
+  {
+    "id": "DSP.5",
+    "name": "Master, Reference & Taxonomy Management",
+    "x": 1,
+    "y": 1.77,
+    "group": "Tier 1 Dependency",
+    "color": "#d5e8d4",
+    "border": "#82b366",
+    "label": "Master, Reference &\nTaxonomy Management"
+  },
+  {
+    "id": "DSP.6",
+    "name": "Business Glossary & Concept Governance",
+    "x": 0,
+    "y": 0.655,
+    "group": "Foundational",
+    "color": "#d5e8d4",
+    "border": "#82b366",
+    "label": "Business Glossary &\nConcept Governance"
+  },
+  {
+    "id": "DSP.7",
+    "name": "Analytics Enablement & Reporting",
+    "x": 2,
+    "y": 1.27,
+    "group": "Tier 2 Dependency",
+    "color": "#d5e8d4",
+    "border": "#82b366",
+    "label": "Analytics Enablement &\nReporting"
+  },
+  {
+    "id": "DSP.8",
+    "name": "Data Stewardship & Adoption",
+    "x": 1,
+    "y": 2.0,
+    "group": "Tier 1 Dependency",
+    "color": "#d5e8d4",
+    "border": "#82b366",
+    "label": "Data Stewardship &\nAdoption"
+  },
+  {
+    "id": "DGP.1",
+    "name": "Consent, Privacy & Regulatory Alignment",
+    "x": 1,
+    "y": 0.885,
+    "group": "Tier 1 Dependency",
+    "color": "#dae8fc",
+    "border": "#6c8ebf",
+    "label": "Consent, Privacy &\nRegulatory Alignment"
+  },
+  {
+    "id": "DGP.2",
+    "name": "Access Control & Security Governance",
+    "x": 0,
+    "y": 2.115,
+    "group": "Foundational",
+    "color": "#dae8fc",
+    "border": "#6c8ebf",
+    "label": "Access Control &\nSecurity Governance"
+  },
+  {
+    "id": "DGP.3",
+    "name": "Policy & Standardization Frameworks",
+    "x": 0,
+    "y": 0.885,
+    "group": "Foundational",
+    "color": "#dae8fc",
+    "border": "#6c8ebf",
+    "label": "Policy &\nStandardization\nFrameworks"
+  },
+  {
+    "id": "DGP.4",
+    "name": "Audit Readiness & Compliance Monitoring",
+    "x": 2,
+    "y": 1.5,
+    "group": "Tier 2 Dependency",
+    "color": "#dae8fc",
+    "border": "#6c8ebf",
+    "label": "Audit Readiness &\nCompliance Monitoring"
+  },
+  {
+    "id": "DGP.5",
+    "name": "Control Remediation & Incident Response",
+    "x": 2,
+    "y": 2.0,
+    "group": "Tier 2 Dependency",
+    "color": "#dae8fc",
+    "border": "#6c8ebf",
+    "label": "Control Remediation &\nIncident Response"
+  },
+  {
+    "id": "DGP.6",
+    "name": "Role Clarity & Accountability Structures",
+    "x": 0,
+    "y": 1.115,
+    "group": "Foundational",
+    "color": "#dae8fc",
+    "border": "#6c8ebf",
+    "label": "Role Clarity &\nAccountability\nStructures"
+  },
+  {
+    "id": "DGP.7",
+    "name": "Change Management & Version Governance",
+    "x": 1,
+    "y": 1.615,
+    "group": "Tier 1 Dependency",
+    "color": "#dae8fc",
+    "border": "#6c8ebf",
+    "label": "Change Management &\nVersion Governance"
+  },
+  {
+    "id": "DGP.8",
+    "name": "Ethical & Responsible Use Oversight",
+    "x": 3,
+    "y": 0.885,
+    "group": "Compilatory",
+    "color": "#dae8fc",
+    "border": "#6c8ebf",
+    "label": "Ethical & Responsible\nUse Oversight"
+  },
+  {
+    "id": "ASP.1",
+    "name": "AI Strategy Alignment & Stewardship",
+    "x": 0,
+    "y": 1.345,
+    "group": "Foundational",
+    "color": "#ffe6cc",
+    "border": "#d79b00",
+    "label": "AI Strategy Alignment\n& Stewardship"
+  },
+  {
+    "id": "ASP.2",
+    "name": "Model Lifecycle & Versioning",
+    "x": 2,
+    "y": 1.73,
+    "group": "Tier 2 Dependency",
+    "color": "#ffe6cc",
+    "border": "#d79b00",
+    "label": "Model Lifecycle &\nVersioning"
+  },
+  {
+    "id": "ASP.3",
+    "name": "Explainability & Stakeholder Justification",
+    "x": 1,
+    "y": 2.23,
+    "group": "Tier 1 Dependency",
+    "color": "#ffe6cc",
+    "border": "#d79b00",
+    "label": "Explainability &\nStakeholder\nJustification"
+  },
+  {
+    "id": "ASP.4",
+    "name": "Performance Monitoring & Alerting",
+    "x": 1,
+    "y": 1.115,
+    "group": "Tier 1 Dependency",
+    "color": "#ffe6cc",
+    "border": "#d79b00",
+    "label": "Performance Monitoring\n& Alerting"
+  },
+  {
+    "id": "ASP.5",
+    "name": "Fairness & Segment-Aware Design",
+    "x": 2,
+    "y": 1.0,
+    "group": "Tier 2 Dependency",
+    "color": "#ffe6cc",
+    "border": "#d79b00",
+    "label": "Fairness &\nSegment-Aware Design"
+  },
+  {
+    "id": "ASP.6",
+    "name": "ML Infrastructure & Tooling",
+    "x": 1,
+    "y": 2.46,
+    "group": "Tier 1 Dependency",
+    "color": "#ffe6cc",
+    "border": "#d79b00",
+    "label": "ML Infrastructure &\nTooling"
+  },
+  {
+    "id": "ASP.7",
+    "name": "Governance & Audit of AI Controls",
+    "x": 3,
+    "y": 1.115,
+    "group": "Compilatory",
+    "color": "#ffe6cc",
+    "border": "#d79b00",
+    "label": "Governance & Audit of\nAI Controls"
+  },
+  {
+    "id": "ASP.8",
+    "name": "Emerging AI Technologies & Innovation",
+    "x": 0,
+    "y": 2.345,
+    "group": "Foundational",
+    "color": "#ffe6cc",
+    "border": "#d79b00",
+    "label": "Emerging AI\nTechnologies &\nInnovation"
+  }
+]

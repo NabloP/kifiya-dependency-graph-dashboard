@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Kifiya DAG (ECharts)</title>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        #container {
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            /* Enables scrolling */
+            background-color: #fafbff;
+        }
+
+        #main {
+            width: 3000px;
+            /* Enough width for full axis spread */
+            height: 2000px;
+            /* Enough height to avoid compression */
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="main"></div>
+    </div>
+
+    <script>
+        const chart = echarts.init(document.getElementById('main'));
+
+        Promise.all([
+            fetch("data/nodes.json").then(res => res.json()),
+            fetch("data/links.json").then(res => res.json())
+        ]).then(([nodeData, linkData]) => {
+            chart.setOption({
+                tooltip: {},
+                animation: false,
+
+                grid: { top: 60, bottom: 60, left: 100, right: 60 },
+
+                xAxis: {
+                    min: -0.5,
+                    max: 4.5,
+                    type: 'value',
+                    interval: 1,
+                    axisLabel: {
+                        interval: 0,
+                        formatter: value => ({
+                            0: 'Foundational',
+                            1: 'Tier 1 Dep.',
+                            2: 'Tier 2 Dep.',
+                            3: 'Compilatory',
+                            4: 'Resulting'
+                        }[value] || ''),
+                        fontSize: 14,
+                        margin: 20
+                    },
+                    name: 'Domain Type',
+                    nameLocation: 'middle',
+                    nameGap: 40,
+                    nameTextStyle: { fontSize: 16, fontWeight: 'bold' },
+                    splitLine: { show: false }
+                },
+
+                yAxis: {
+                    min: 0.5,
+                    max: 2.5,
+                    type: 'value',
+                    interval: 0.5,
+                    axisLabel: {
+                        interval: 0,
+                        formatter: value => ({
+                            1.0: 'Tier 1 Maturity',
+                            1.5: 'Tier 1.5 Maturity',
+                            2.0: 'Tier 2 Maturity'
+                        }[value.toFixed(1)] || ''),
+                        fontSize: 14,
+                        margin: 20
+                    },
+                    name: 'Maturity Level',
+                    nameLocation: 'middle',
+                    nameGap: 70,
+                    nameTextStyle: { fontSize: 16, fontWeight: 'bold' },
+                    splitLine: { show: false }
+                },
+
+                series: [{
+                    type: 'graph',
+                    layout: 'none',
+                    coordinateSystem: 'cartesian2d',
+                    symbol: 'roundRect',
+                    symbolSize: [200, 70],
+                    roam: false, // Disable zoom/pan since we scroll instead
+                    edgeSymbol: ['none', 'arrow'],
+                    edgeSymbolSize: 8,
+
+                    label: {
+                        show: true,
+                        fontSize: 11,
+                        overflow: 'break',
+                        width: 180,
+                        lineHeight: 16,
+                        formatter: d => d.data.label || d.data.name
+                    },
+
+                    lineStyle: {
+                        color: '#888',
+                        width: 2,
+                        curveness: 0.2
+                    },
+
+                    emphasis: { focus: 'adjacency' },
+
+                    data: nodeData.map(n => ({
+                        name: n.id,
+                        value: [n.x, n.y],
+                        itemStyle: {
+                            color: n.color,
+                            borderColor: n.border,
+                            borderWidth: 1.5
+                        },
+                        label: { formatter: n.label || n.name },
+                        tooltip: { formatter: n.name }
+                    })),
+
+                    links: linkData,
+
+                    markArea: {
+                        silent: true,
+                        itemStyle: {
+                            color: 'rgba(200,200,255,0.08)'
+                        },
+                        data: [
+                            [{ yAxis: 0.75 }, { yAxis: 1.25 }],
+                            [{ yAxis: 1.25 }, { yAxis: 1.75 }],
+                            [{ yAxis: 1.75 }, { yAxis: 2.25 }]
+                        ]
+                    }
+                }]
+            });
+        }).catch(error => {
+            console.error("❌ Failed to load JSON data:", error);
+        });
+    </script>
+
+</body>
+
+</html>

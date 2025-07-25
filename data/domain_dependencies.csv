@@ -1,0 +1,163 @@
+PK,DEPENDENCY_ID,SOURCE_DOMAIN_ID,TARGET_DOMAIN_ID,TIER,WEIGHT,ACTIVATION_THRESHOLD,DESCRIPTION
+1,DGP.1?DSP.1,DGP.1,DSP.1,4,3,2,Ingestion cannot be governed without capturing consent at the point of entry.
+2,DGP.3?DSP.1,DGP.3,DSP.1,4,3,2,No progression to Tier 3 without standardized ingestion policies.
+3,DSP.5?DSP.1,DSP.5,DSP.1,4,3,2,"End-to-end traceability is mandatory for compliance, rollback, and audit."
+4,DGP.6?DSP.1,DGP.6,DSP.1,2,1,2,Supports ownership of ingestion governance.
+5,DSP.8?DSP.1,DSP.8,DSP.1,2,1,2,Strengthens confidence in ingestion quality.
+6,DSP.4?DSP.1,DSP.4,DSP.1,1,0,2,Ensures observability of ingestion DAGs and APIs
+7,DGP.3?DSP.2,DGP.3,DSP.2,4,3,1,"Without defined quality standards, no automated validation can be enforced."
+8,DGP.6?DSP.2,DGP.6,DSP.2,3,2,1,No progression without someone owning quality metrics.
+9,DSP.6?DSP.2,DSP.6,DSP.2,3,2,1,Needed for consistency in validation rules.
+10,DSP.3?DSP.2,DSP.3,DSP.2,3,2,1,Supports traceable validation pathways.
+11,DSP.8?DSP.2,DSP.8,DSP.2,2,1,1,Drives continuous data quality culture.
+12,DGP.3?DSP.3,DGP.3,DSP.3,4,3,2,Lineage blocked without standardization policies
+13,DGP.6?DSP.3,DGP.6,DSP.3,4,3,2,No ownership or accountability for lineage management
+14,DGP.1?DSP.3,DGP.1,DSP.3,4,3,2,Lineage incomplete without consent/privacy integration
+15,DSP.6?DSP.3,DSP.6,DSP.3,3,2,2,Business glossary required for consistent lineage definitions
+16,DSP.2?DSP.3,DSP.2,DSP.3,3,2,2,Data quality validation supports meaningful lineage
+17,DSP.4?DSP.3,DSP.4,DSP.3,2,1,2,Platform observability strengthens but doesn’t block lineage maturity
+18,DGP.5?DSP.3,DGP.5,DSP.3,2,1,2,Incident response traceability complements lineage
+19,DGP.3?DSP.4,DGP.3,DSP.4,4,3,2,No progression to Tier 3 without standardized platform governance policies.
+20,DGP.7?DSP.4,DGP.7,DSP.4,4,3,2,No observability maturity without formal change management and version control.
+21,DGP.6?DSP.4,DGP.6,DSP.4,4,3,2,Observability requires clear accountability for monitoring and platform health.
+22,ASP.6?DSP.4,ASP.6,DSP.4,4,3,2,"ML infrastructure and tooling must be in place to achieve reliable, standardized platform observability."
+23,DGP.5?DSP.4,DGP.5,DSP.4,3,2,2,Incident response and control remediation enhance platform reliability but are not strict blockers.
+24,DSP.2?DSP.4,DSP.2,DSP.4,2,1,2,Data quality monitoring complements observability but is not required for maturity.
+25,DSP.7?DSP.4,DSP.7,DSP.4,2,1,2,Reporting of observability metrics strengthens platform governance but is not a blocker.
+26,DGP.3?DSP.5,DGP.3,DSP.5,4,3,2,Standardized policies are required to formalize and enforce master data management.
+27,DGP.6?DSP.5,DGP.6,DSP.5,4,3,2,Clear ownership and accountability are mandatory to govern master/reference data.
+28,DSP.6?DSP.5,DSP.6,DSP.5,4,3,2,Business glossary and concept definitions are essential to align taxonomies.
+29,DSP.8?DSP.5,DSP.8,DSP.5,2,1,2,Stewardship culture embeds taxonomy management but is not required to reach Tier 3.
+30,DGP.3?DSP.6,DGP.3,DSP.6,4,3,1,"Without standardized governance policy, there is no authority to formalize or enforce business glossary management."
+31,DGP.6?DSP.6,DGP.6,DSP.6,4,3,1,Role clarity and accountability are essential to assign ownership for glossary maintenance and dispute resolution.
+32,DSP.8?DSP.6,DSP.8,DSP.6,2,1,1,Stewardship and adoption strengthen glossary practices but are not required to reach Tier 2 maturity.
+33,DSP.6?DSP.7,DSP.6,DSP.7,4,3,2,"Without shared concept definitions, analytics logic lacks clarity and trust."
+34,DGP.3?DSP.7,DGP.3,DSP.7,4,3,2,Standardized intake processes and KPI logic are essential to avoid fragmented analytics.
+35,DGP.6?DSP.7,DGP.6,DSP.7,4,3,2,Clear accountability needed for platform ownership and reporting governance.
+36,DSP.3?DSP.7,DSP.3,DSP.7,3,2,2,Lineage enables confidence by linking dashboards to source data.
+37,DGP.7?DSP.7,DGP.7,DSP.7,3,2,2,Change governance ensures updates are versioned and stakeholder-driven.
+38,DGP.4?DSP.7,DGP.4,DSP.7,2,1,2,"Compliance audits benefit from traceable, governed dashboards."
+39,DSP.4?DSP.7,DSP.4,DSP.7,2,1,2,Observability strengthens uptime and error monitoring of analytics platforms.
+40,DSP.8?DSP.7,DSP.8,DSP.7,2,1,2,Stewardship drives adoption and sustained platform usage.
+41,DGP.6?DSP.8,DGP.6,DSP.8,4,3,2,Stewardship cannot exist without clearly defined roles and escalation paths.
+42,DGP.3?DSP.8,DGP.3,DSP.8,4,3,2,Policies are needed to institutionalize stewardship practices and embed them into workflows.
+43,DSP.6?DSP.8,DSP.6,DSP.8,3,2,2,Stewards require aligned terminology to maintain consistent data practices across teams.
+44,DGP.7?DSP.8,DGP.7,DSP.8,3,2,2,Version control ensures that stewardship responsibilities persist across system or definition changes.
+45,DSP.7?DSP.8,DSP.7,DSP.8,2,1,2,Analytics adoption helps reinforce stewarded data but is not required for stewardship itself.
+46,DSP.1?DGP.1,DSP.1,DGP.1,4,3,1,Consent cannot be captured or tagged without mature data ingestion pipelines.
+47,DSP.5?DGP.1,DSP.5,DGP.1,4,3,1,Consent purposes must be mapped to reference data to enable standardized interpretation.
+48,DGP.3?DGP.1,DGP.3,DGP.1,4,3,1,"Without standardized policies, consent logic cannot be enforced or audited."
+49,DGP.2?DGP.1,DGP.2,DGP.1,3,2,1,Access controls can enforce consent boundaries only if tagging and purpose models already exist.
+50,DGP.6?DGP.1,DGP.6,DGP.1,3,2,1,Consent enforcement depends on clear accountability across data lifecycle.
+51,DGP.7?DGP.1,DGP.7,DGP.1,3,2,1,Versioning enables consent logic to evolve alongside legal or organizational changes.
+52,DSP.6?DGP.1,DSP.6,DGP.1,2,1,1,Shared business definitions improve clarity of what consent governs.
+53,DSP.4?DGP.1,DSP.4,DGP.1,2,1,1,Observability supports detection of consent violations or misalignments.
+54,DGP.3?DGP.2,DGP.3,DGP.2,4,3,2,Access provisioning and security baselines require standardized policy scaffolding to be formalized and enforced.
+55,DGP.6?DGP.2,DGP.6,DGP.2,4,3,2,Governance maturity depends on defined ownership for permission lifecycle and platform-level security enforcement.
+56,DSP.4?DGP.2,DSP.4,DGP.2,3,2,2,"Observability supports logging and real-time detection of access or security violations, strengthening enforcement."
+57,DGP.7?DGP.2,DGP.7,DGP.2,3,2,2,"Versioning enables traceability of permission and configuration changes, supporting auditability and rollback."
+58,DGP.5?DGP.2,DGP.5,DGP.2,3,2,2,Structured remediation workflows enable consistent response to access breaches or security threats.
+59,DGP.6?DGP.3,DGP.6,DGP.3,4,3,2,Policies without owners remain unused; ownership is a precondition for governance enforcement.
+60,DGP.7?DGP.3,DGP.7,DGP.3,4,3,2,Version control and change tracking are required to maintain evolving policy frameworks.
+61,DSP.1?DGP.3,DSP.1,DGP.3,3,2,1,"Ingestion typically adopts policy earliest (e.g., consent SOPs), driving early maturation pressure."
+62,ASP.1?DGP.3,ASP.1,DGP.3,3,2,1,AI strategy demands documented approval policies and operational thresholds from early maturity stages.
+63,DSP.6?DGP.3,DSP.6,DGP.3,2,1,1,Shared business terms enable consistent and interpretable policy documentation.
+64,DGP.3?DGP.4,DGP.3,DGP.4,4,3,1,No audit scaffolds can exist without policy-defined thresholds and compliance criteria.
+65,DGP.2?DGP.4,DGP.2,DGP.4,4,3,1,Audits require identity-linked access logs; access control must be mature for traceability.
+66,DGP.1?DGP.4,DGP.1,DGP.4,4,3,1,Consent enforcement must be traceable to satisfy privacy audit requirements.
+67,DSP.3?DGP.4,DSP.3,DGP.4,4,3,1,"Without lineage, audit logs show snapshots, not traceable transformations."
+68,ASP.2?DGP.4,ASP.2,DGP.4,3,2,1,"Model versioning supports domain-specific auditability, especially in scoring."
+69,DSP.5?DGP.4,DSP.5,DGP.4,3,2,1,Reference data improves audit interpretation and mapping but is not mandatory.
+70,DSP.8?DGP.4,DSP.8,DGP.4,2,1,1,Stewards strengthen domain readiness but are not required to begin audits.
+71,DGP.6?DGP.4,DGP.6,DGP.4,2,1,1,Role clarity improves accountability for audit prep but does not block traceability.
+72,DGP.3?DGP.5,DGP.3,DGP.5,4,3,2,"Without standardized incident response policies and playbooks, remediation cannot be institutionalized."
+73,DGP.6?DGP.5,DGP.6,DGP.5,4,3,2,"Clear accountability is needed to define who responds, who reports, and who escalates during incidents."
+74,DGP.7?DGP.5,DGP.7,DGP.5,3,2,2,Version governance is critical for post-incident rollback and system recovery workflows.
+75,DSP.4?DGP.5,DSP.4,DGP.5,3,2,2,Platform observability enables early detection of issues that trigger incident response protocols.
+76,ASP.4?DGP.5,ASP.4,DGP.5,2,1,2,Monitoring model performance can signal anomalies requiring remediation but is not core to baseline maturity.
+77,DGP.3?DGP.6,DGP.3,DGP.6,3,2,1,Policy scaffolds support clearer governance roles and reduce ambiguity in ownership across data and AI functions.
+78,DGP.7?DGP.6,DGP.7,DGP.6,2,1,1,"Version control and change management practices help roles persist through re-orgs, staff rotation, or structural change."
+79,DSP.8?DGP.6,DSP.8,DGP.6,2,1,1,Stewardship formalizes operational accountability and embeds role ownership across domains.
+80,DGP.3?DGP.7,DGP.3,DGP.7,4,3,1,Change policies and SOPs are required for enforcing version control procedures.
+81,DGP.6?DGP.7,DGP.6,DGP.7,4,3,1,"Without clear ownership, change approval and rollback cannot be institutionalized."
+82,DSP.3?DGP.7,DSP.3,DGP.7,4,3,1,Lineage enables visibility into what version of data or logic produced a given output.
+83,DSP.2?DGP.7,DSP.2,DGP.7,3,2,1,Change management needs validation checkpoints to promote changes responsibly.
+84,ASP.2?DGP.7,ASP.2,DGP.7,3,2,1,AI model versioning supports a federated governance process for logic changes.
+85,DSP.7?DGP.7,DSP.7,DGP.7,2,1,1,"Governance dashboards (e.g., change approval rates, rollback trends) create visibility and reinforce adoption."
+86,DSP.6?DGP.7,DSP.6,DGP.7,2,1,1,Glossary alignment ensures that changes are semantically understood and communicated across teams.
+87,DGP.3?DGP.8,DGP.3,DGP.8,4,3,1,Ethics oversight requires policy scaffolding and standardized governance practices.
+88,DGP.6?DGP.8,DGP.6,DGP.8,4,3,1,Responsible AI and data use must be assigned to a named risk owner or governance body.
+89,DSP.6?DGP.8,DSP.6,DGP.8,4,3,1,"Misaligned definitions (e.g., income proxies) create ethical risk — glossary is essential."
+90,DSP.2?DGP.8,DSP.2,DGP.8,3,2,1,Poor input quality or unvalidated proxies undermine fairness in decision systems.
+91,ASP.5?DGP.8,ASP.5,DGP.8,3,2,1,A fairness-aware design mindset supports earlier adoption of responsible use practices.
+92,ASP.3?DGP.8,ASP.3,DGP.8,3,2,1,Explainability enables ethical evaluation of models and justifies interventions.
+93,ASP.4?DGP.8,ASP.4,DGP.8,2,1,1,Monitoring and alerts allow for faster detection of unfair or harmful outcomes.
+94,DSP.7?DGP.8,DSP.7,DGP.8,2,1,1,Bias and override tracking dashboards improve transparency of ethical oversight.
+95,ASP.8?DGP.8,ASP.8,DGP.8,2,1,1,Responsible innovation governance helps bound ethical risk in experimentation.
+96,DGP.3?ASP.1,DGP.3,ASP.1,3,2,1,Policy scaffolding supports strategic framing but isn't mandatory to begin.
+97,DGP.6?ASP.1,DGP.6,ASP.1,3,2,1,Clarity of AI stewardship roles strengthens strategy enforcement.
+98,ASP.8?ASP.1,ASP.8,ASP.1,3,2,1,Innovation governance is critical for aligning strategy with future AI risk/opportunity.
+99,DSP.6?ASP.1,DSP.6,ASP.1,2,1,1,Shared semantics improve the communicability of AI strategy across units.
+100,ASP.2?ASP.1,ASP.2,ASP.1,2,1,1,"Lifecycle maturity supports, but doesn’t define, strategic articulation."
+101,DGP.4?ASP.1,DGP.4,ASP.1,2,1,1,Audit visibility enhances stewardship accountability but is not required to start.
+102,DGP.6?ASP.2,DGP.6,ASP.2,3,2,1,Role clarity ensures deployment ownership is maintained and versioning is traceable.
+103,ASP.1?ASP.2,ASP.1,ASP.2,3,2,1,Strategy alignment supports defining model lifecycle purpose and sunset plans.
+104,DSP.3?ASP.2,DSP.3,ASP.2,2,1,1,Data lineage improves version reproducibility and audit trust.
+105,DGP.4?ASP.2,DGP.4,ASP.2,2,1,1,Audit readiness reinforces model traceability and version justification.
+106,ASP.6?ASP.2,ASP.6,ASP.2,2,1,1,"ML infrastructure enables eventual observability, rollback, and deployment resilience."
+107,ASP.1?ASP.3,ASP.1,ASP.3,3,2,2,Aligns explainability expectations with AI governance vision and institutional risk posture
+108,DGP.3?ASP.3,DGP.3,ASP.3,3,2,2,Standardizes explainability documentation and review policies across model types
+109,DGP.8?ASP.3,DGP.8,ASP.3,3,2,2,"Connects explainability to fairness, ethical review, and regulatory defensibility"
+110,DGP.4?ASP.3,DGP.4,ASP.3,2,1,2,Ensures explainability artifacts are auditable and retained for inspection
+111,DSP.6?ASP.3,DSP.6,ASP.3,2,1,2,"Helps define terms like “PD,” “risk driver,” and “screening rule” in plain language"
+112,DSP.7?ASP.3,DSP.7,ASP.3,2,1,2,Enables explainability artifacts to be visualized or surfaced via BI tools
+113,ASP.5?ASP.3,ASP.5,ASP.3,2,1,2,Segment-aware design supports behavior-based or demographic-specific justifications
+114,ASP.6?ASP.4,ASP.6,ASP.4,3,2,1,"Enables foundational logging, observability, and drift alerting infrastructure"
+115,ASP.2?ASP.4,ASP.2,ASP.4,3,2,1,Ties monitoring logic to model lifecycle states and retraining triggers
+116,ASP.1?ASP.4,ASP.1,ASP.4,3,2,1,Elevates monitoring from technical hygiene to strategic priority
+117,DGP.4?ASP.4,DGP.4,ASP.4,2,1,1,Ensures monitoring evidence is auditable and compliance-aligned
+118,DSP.8?ASP.4,DSP.8,ASP.4,2,1,1,Supports long-term telemetry and model stewardship through embedded data roles
+119,DSP.7?ASP.4,DSP.7,ASP.4,2,1,1,Enables visualization of model scores and performance trends for diagnostics
+120,ASP.1?ASP.5,ASP.1,ASP.5,3,2,1,Embeds fairness expectations into strategic AI governance and execution plans
+121,DGP.8?ASP.5,DGP.8,ASP.5,3,2,1,Aligns fairness audits with responsible AI oversight and regulatory defensibility
+122,DSP.6?ASP.5,DSP.6,ASP.5,3,2,1,"Standardizes terms like “bias,” “segment,” “risk driver” for consistent use across models"
+123,DSP.8?ASP.5,DSP.8,ASP.5,2,1,1,Ensures demographic/segment attributes are governed and reusable for bias monitoring
+124,DSP.7?ASP.5,DSP.7,ASP.5,2,1,1,Enables visualization of fairness metrics for internal and external stakeholders
+125,ASP.3?ASP.5,ASP.3,ASP.5,2,1,1,Builds on explainability to make fairness interpretable and accessible across teams
+126,DGP.3?ASP.6,DGP.3,ASP.6,3,2,2,"Policies must define infra expectations, environments, and lifecycle guardrails"
+127,DGP.6?ASP.6,DGP.6,ASP.6,3,2,2,Role clarity needed for infra ownership and platform responsibilities
+128,DSP.4?ASP.6,DSP.4,ASP.6,3,2,2,"Observability needed for infra health, logs, and platform reliability"
+129,ASP.2?ASP.6,ASP.2,ASP.6,3,2,2,"Lifecycle tracking requires infra for registries, rollback, and staging"
+130,ASP.7?ASP.6,ASP.7,ASP.6,3,2,2,"Infra must support auditability, change logs, and policy enforcement"
+131,DSP.5?ASP.6,DSP.5,ASP.6,2,1,2,Helps unify artifact taxonomy across ML assets
+132,DSP.6?ASP.6,DSP.6,ASP.6,2,1,2,Optimizes human-readable model states and audit artifacts
+133,ASP.3?ASP.6,ASP.3,ASP.6,2,1,2,Explainers need embedded tooling or SDK support
+134,ASP.8?ASP.6,ASP.8,ASP.6,2,1,2,Innovation tooling needs reproducibility and secure sandboxes
+135,DGP.3?ASP.6,DGP.3,ASP.6,3,2,2,"Policies must define infra expectations, environments, and lifecycle guardrails"
+136,DGP.6?ASP.6,DGP.6,ASP.6,3,2,2,Role clarity needed for infra ownership and platform responsibilities
+137,DSP.4?ASP.6,DSP.4,ASP.6,3,2,2,"Observability needed for infra health, logs, and platform reliability"
+138,ASP.2?ASP.6,ASP.2,ASP.6,3,2,2,"Lifecycle tracking requires infra for registries, rollback, and staging"
+139,ASP.7?ASP.6,ASP.7,ASP.6,3,2,2,"Infra must support auditability, change logs, and policy enforcement"
+140,DSP.5?ASP.6,DSP.5,ASP.6,2,1,2,Helps unify artifact taxonomy across ML assets
+141,DSP.6?ASP.6,DSP.6,ASP.6,2,1,2,Optimizes human-readable model states and audit artifacts
+142,ASP.3?ASP.6,ASP.3,ASP.6,2,1,2,Explainers need embedded tooling or SDK support
+143,ASP.8?ASP.6,ASP.8,ASP.6,2,1,2,Innovation tooling needs reproducibility and secure sandboxes
+144,ASP.6?ASP.7,ASP.6,ASP.7,4,3,1,"Without infra logs and model registries, audit trail cannot exist"
+145,ASP.2?ASP.7,ASP.2,ASP.7,4,3,1,No lifecycle state = no scope for governance enforcement
+146,DGP.3?ASP.7,DGP.3,ASP.7,4,3,1,Policy definitions needed to know what should be governed
+147,DGP.6?ASP.7,DGP.6,ASP.7,4,3,1,"Role clarity defines who owns governance, approval, enforcement"
+148,DGP.7?ASP.7,DGP.7,ASP.7,3,2,1,"Enables version control, rollback tracking, and change approvals"
+149,ASP.1?ASP.7,ASP.1,ASP.7,3,2,1,Strategy determines governance priority and risk alignment
+150,DSP.5?ASP.7,DSP.5,ASP.7,2,1,1,"Enables model classification, tagging, and risk indexing"
+151,ASP.3?ASP.7,ASP.3,ASP.7,2,1,1,Explainability metadata required for audit artifacts
+152,ASP.5?ASP.7,ASP.5,ASP.7,2,1,1,Fairness evaluations feed bias governance checks
+153,ASP.1?ASP.8,ASP.1,ASP.8,4,3,2,Innovation must align with AI strategic priorities to prevent scattershot experimentation.
+154,DGP.3?ASP.8,DGP.3,ASP.8,4,3,2,Policy frameworks are required to govern high-risk experimental use cases.
+155,DGP.8?ASP.8,DGP.8,ASP.8,4,3,2,Ethical oversight ensures innovation is guided by responsible use principles.
+156,ASP.6?ASP.8,ASP.6,ASP.8,3,2,2,"Tooling and infrastructure support safe AI prototyping, testing, and experimentation."
+157,ASP.2?ASP.8,ASP.2,ASP.8,3,2,2,Version control and rollback mechanisms enable controlled scaling of innovation pilots.
+158,DGP.7?ASP.8,DGP.7,ASP.8,3,2,2,Version governance ensures experimental systems are traceable and managed.
+159,ASP.4?ASP.8,ASP.4,ASP.8,2,1,2,Monitoring of innovation outputs is necessary to detect failure and drift.
+160,ASP.3?ASP.8,ASP.3,ASP.8,2,1,2,Explainability improves risk assessment of novel AI technologies.
+161,DSP.6?ASP.8,DSP.6,ASP.8,2,1,2,"Shared innovation terminology (e.g., “experimental,” “pilot”) supports cross-team clarity."
+162,DSP.8?ASP.8,DSP.8,ASP.8,2,1,2,Emerging AI needs curated data pipelines and secure access for experimentation.

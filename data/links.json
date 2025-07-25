@@ -1,0 +1,650 @@
+[
+  {
+    "source": "DGP.1",
+    "target": "DSP.1"
+  },
+  {
+    "source": "DGP.3",
+    "target": "DSP.1"
+  },
+  {
+    "source": "DSP.5",
+    "target": "DSP.1"
+  },
+  {
+    "source": "DGP.6",
+    "target": "DSP.1"
+  },
+  {
+    "source": "DSP.8",
+    "target": "DSP.1"
+  },
+  {
+    "source": "DSP.4",
+    "target": "DSP.1"
+  },
+  {
+    "source": "DGP.3",
+    "target": "DSP.2"
+  },
+  {
+    "source": "DGP.6",
+    "target": "DSP.2"
+  },
+  {
+    "source": "DSP.6",
+    "target": "DSP.2"
+  },
+  {
+    "source": "DSP.3",
+    "target": "DSP.2"
+  },
+  {
+    "source": "DSP.8",
+    "target": "DSP.2"
+  },
+  {
+    "source": "DGP.3",
+    "target": "DSP.3"
+  },
+  {
+    "source": "DGP.6",
+    "target": "DSP.3"
+  },
+  {
+    "source": "DGP.1",
+    "target": "DSP.3"
+  },
+  {
+    "source": "DSP.6",
+    "target": "DSP.3"
+  },
+  {
+    "source": "DSP.2",
+    "target": "DSP.3"
+  },
+  {
+    "source": "DSP.4",
+    "target": "DSP.3"
+  },
+  {
+    "source": "DGP.5",
+    "target": "DSP.3"
+  },
+  {
+    "source": "DGP.3",
+    "target": "DSP.4"
+  },
+  {
+    "source": "DGP.7",
+    "target": "DSP.4"
+  },
+  {
+    "source": "DGP.6",
+    "target": "DSP.4"
+  },
+  {
+    "source": "ASP.6",
+    "target": "DSP.4"
+  },
+  {
+    "source": "DGP.5",
+    "target": "DSP.4"
+  },
+  {
+    "source": "DSP.2",
+    "target": "DSP.4"
+  },
+  {
+    "source": "DSP.7",
+    "target": "DSP.4"
+  },
+  {
+    "source": "DGP.3",
+    "target": "DSP.5"
+  },
+  {
+    "source": "DGP.6",
+    "target": "DSP.5"
+  },
+  {
+    "source": "DSP.6",
+    "target": "DSP.5"
+  },
+  {
+    "source": "DSP.8",
+    "target": "DSP.5"
+  },
+  {
+    "source": "DGP.3",
+    "target": "DSP.6"
+  },
+  {
+    "source": "DGP.6",
+    "target": "DSP.6"
+  },
+  {
+    "source": "DSP.8",
+    "target": "DSP.6"
+  },
+  {
+    "source": "DSP.6",
+    "target": "DSP.7"
+  },
+  {
+    "source": "DGP.3",
+    "target": "DSP.7"
+  },
+  {
+    "source": "DGP.6",
+    "target": "DSP.7"
+  },
+  {
+    "source": "DSP.3",
+    "target": "DSP.7"
+  },
+  {
+    "source": "DGP.7",
+    "target": "DSP.7"
+  },
+  {
+    "source": "DGP.4",
+    "target": "DSP.7"
+  },
+  {
+    "source": "DSP.4",
+    "target": "DSP.7"
+  },
+  {
+    "source": "DSP.8",
+    "target": "DSP.7"
+  },
+  {
+    "source": "DGP.6",
+    "target": "DSP.8"
+  },
+  {
+    "source": "DGP.3",
+    "target": "DSP.8"
+  },
+  {
+    "source": "DSP.6",
+    "target": "DSP.8"
+  },
+  {
+    "source": "DGP.7",
+    "target": "DSP.8"
+  },
+  {
+    "source": "DSP.7",
+    "target": "DSP.8"
+  },
+  {
+    "source": "DSP.1",
+    "target": "DGP.1"
+  },
+  {
+    "source": "DSP.5",
+    "target": "DGP.1"
+  },
+  {
+    "source": "DGP.3",
+    "target": "DGP.1"
+  },
+  {
+    "source": "DGP.2",
+    "target": "DGP.1"
+  },
+  {
+    "source": "DGP.6",
+    "target": "DGP.1"
+  },
+  {
+    "source": "DGP.7",
+    "target": "DGP.1"
+  },
+  {
+    "source": "DSP.6",
+    "target": "DGP.1"
+  },
+  {
+    "source": "DSP.4",
+    "target": "DGP.1"
+  },
+  {
+    "source": "DGP.3",
+    "target": "DGP.2"
+  },
+  {
+    "source": "DGP.6",
+    "target": "DGP.2"
+  },
+  {
+    "source": "DSP.4",
+    "target": "DGP.2"
+  },
+  {
+    "source": "DGP.7",
+    "target": "DGP.2"
+  },
+  {
+    "source": "DGP.5",
+    "target": "DGP.2"
+  },
+  {
+    "source": "DGP.6",
+    "target": "DGP.3"
+  },
+  {
+    "source": "DGP.7",
+    "target": "DGP.3"
+  },
+  {
+    "source": "DSP.1",
+    "target": "DGP.3"
+  },
+  {
+    "source": "ASP.1",
+    "target": "DGP.3"
+  },
+  {
+    "source": "DSP.6",
+    "target": "DGP.3"
+  },
+  {
+    "source": "DGP.3",
+    "target": "DGP.4"
+  },
+  {
+    "source": "DGP.2",
+    "target": "DGP.4"
+  },
+  {
+    "source": "DGP.1",
+    "target": "DGP.4"
+  },
+  {
+    "source": "DSP.3",
+    "target": "DGP.4"
+  },
+  {
+    "source": "ASP.2",
+    "target": "DGP.4"
+  },
+  {
+    "source": "DSP.5",
+    "target": "DGP.4"
+  },
+  {
+    "source": "DSP.8",
+    "target": "DGP.4"
+  },
+  {
+    "source": "DGP.6",
+    "target": "DGP.4"
+  },
+  {
+    "source": "DGP.3",
+    "target": "DGP.5"
+  },
+  {
+    "source": "DGP.6",
+    "target": "DGP.5"
+  },
+  {
+    "source": "DGP.7",
+    "target": "DGP.5"
+  },
+  {
+    "source": "DSP.4",
+    "target": "DGP.5"
+  },
+  {
+    "source": "ASP.4",
+    "target": "DGP.5"
+  },
+  {
+    "source": "DGP.3",
+    "target": "DGP.6"
+  },
+  {
+    "source": "DGP.7",
+    "target": "DGP.6"
+  },
+  {
+    "source": "DSP.8",
+    "target": "DGP.6"
+  },
+  {
+    "source": "DGP.3",
+    "target": "DGP.7"
+  },
+  {
+    "source": "DGP.6",
+    "target": "DGP.7"
+  },
+  {
+    "source": "DSP.3",
+    "target": "DGP.7"
+  },
+  {
+    "source": "DSP.2",
+    "target": "DGP.7"
+  },
+  {
+    "source": "ASP.2",
+    "target": "DGP.7"
+  },
+  {
+    "source": "DSP.7",
+    "target": "DGP.7"
+  },
+  {
+    "source": "DSP.6",
+    "target": "DGP.7"
+  },
+  {
+    "source": "DGP.3",
+    "target": "DGP.8"
+  },
+  {
+    "source": "DGP.6",
+    "target": "DGP.8"
+  },
+  {
+    "source": "DSP.6",
+    "target": "DGP.8"
+  },
+  {
+    "source": "DSP.2",
+    "target": "DGP.8"
+  },
+  {
+    "source": "ASP.5",
+    "target": "DGP.8"
+  },
+  {
+    "source": "ASP.3",
+    "target": "DGP.8"
+  },
+  {
+    "source": "ASP.4",
+    "target": "DGP.8"
+  },
+  {
+    "source": "DSP.7",
+    "target": "DGP.8"
+  },
+  {
+    "source": "ASP.8",
+    "target": "DGP.8"
+  },
+  {
+    "source": "DGP.3",
+    "target": "ASP.1"
+  },
+  {
+    "source": "DGP.6",
+    "target": "ASP.1"
+  },
+  {
+    "source": "ASP.8",
+    "target": "ASP.1"
+  },
+  {
+    "source": "DSP.6",
+    "target": "ASP.1"
+  },
+  {
+    "source": "ASP.2",
+    "target": "ASP.1"
+  },
+  {
+    "source": "DGP.4",
+    "target": "ASP.1"
+  },
+  {
+    "source": "DGP.6",
+    "target": "ASP.2"
+  },
+  {
+    "source": "ASP.1",
+    "target": "ASP.2"
+  },
+  {
+    "source": "DSP.3",
+    "target": "ASP.2"
+  },
+  {
+    "source": "DGP.4",
+    "target": "ASP.2"
+  },
+  {
+    "source": "ASP.6",
+    "target": "ASP.2"
+  },
+  {
+    "source": "ASP.1",
+    "target": "ASP.3"
+  },
+  {
+    "source": "DGP.3",
+    "target": "ASP.3"
+  },
+  {
+    "source": "DGP.8",
+    "target": "ASP.3"
+  },
+  {
+    "source": "DGP.4",
+    "target": "ASP.3"
+  },
+  {
+    "source": "DSP.6",
+    "target": "ASP.3"
+  },
+  {
+    "source": "DSP.7",
+    "target": "ASP.3"
+  },
+  {
+    "source": "ASP.5",
+    "target": "ASP.3"
+  },
+  {
+    "source": "ASP.6",
+    "target": "ASP.4"
+  },
+  {
+    "source": "ASP.2",
+    "target": "ASP.4"
+  },
+  {
+    "source": "ASP.1",
+    "target": "ASP.4"
+  },
+  {
+    "source": "DGP.4",
+    "target": "ASP.4"
+  },
+  {
+    "source": "DSP.8",
+    "target": "ASP.4"
+  },
+  {
+    "source": "DSP.7",
+    "target": "ASP.4"
+  },
+  {
+    "source": "ASP.1",
+    "target": "ASP.5"
+  },
+  {
+    "source": "DGP.8",
+    "target": "ASP.5"
+  },
+  {
+    "source": "DSP.6",
+    "target": "ASP.5"
+  },
+  {
+    "source": "DSP.8",
+    "target": "ASP.5"
+  },
+  {
+    "source": "DSP.7",
+    "target": "ASP.5"
+  },
+  {
+    "source": "ASP.3",
+    "target": "ASP.5"
+  },
+  {
+    "source": "DGP.3",
+    "target": "ASP.6"
+  },
+  {
+    "source": "DGP.6",
+    "target": "ASP.6"
+  },
+  {
+    "source": "DSP.4",
+    "target": "ASP.6"
+  },
+  {
+    "source": "ASP.2",
+    "target": "ASP.6"
+  },
+  {
+    "source": "ASP.7",
+    "target": "ASP.6"
+  },
+  {
+    "source": "DSP.5",
+    "target": "ASP.6"
+  },
+  {
+    "source": "DSP.6",
+    "target": "ASP.6"
+  },
+  {
+    "source": "ASP.3",
+    "target": "ASP.6"
+  },
+  {
+    "source": "ASP.8",
+    "target": "ASP.6"
+  },
+  {
+    "source": "DGP.3",
+    "target": "ASP.6"
+  },
+  {
+    "source": "DGP.6",
+    "target": "ASP.6"
+  },
+  {
+    "source": "DSP.4",
+    "target": "ASP.6"
+  },
+  {
+    "source": "ASP.2",
+    "target": "ASP.6"
+  },
+  {
+    "source": "ASP.7",
+    "target": "ASP.6"
+  },
+  {
+    "source": "DSP.5",
+    "target": "ASP.6"
+  },
+  {
+    "source": "DSP.6",
+    "target": "ASP.6"
+  },
+  {
+    "source": "ASP.3",
+    "target": "ASP.6"
+  },
+  {
+    "source": "ASP.8",
+    "target": "ASP.6"
+  },
+  {
+    "source": "ASP.6",
+    "target": "ASP.7"
+  },
+  {
+    "source": "ASP.2",
+    "target": "ASP.7"
+  },
+  {
+    "source": "DGP.3",
+    "target": "ASP.7"
+  },
+  {
+    "source": "DGP.6",
+    "target": "ASP.7"
+  },
+  {
+    "source": "DGP.7",
+    "target": "ASP.7"
+  },
+  {
+    "source": "ASP.1",
+    "target": "ASP.7"
+  },
+  {
+    "source": "DSP.5",
+    "target": "ASP.7"
+  },
+  {
+    "source": "ASP.3",
+    "target": "ASP.7"
+  },
+  {
+    "source": "ASP.5",
+    "target": "ASP.7"
+  },
+  {
+    "source": "ASP.1",
+    "target": "ASP.8"
+  },
+  {
+    "source": "DGP.3",
+    "target": "ASP.8"
+  },
+  {
+    "source": "DGP.8",
+    "target": "ASP.8"
+  },
+  {
+    "source": "ASP.6",
+    "target": "ASP.8"
+  },
+  {
+    "source": "ASP.2",
+    "target": "ASP.8"
+  },
+  {
+    "source": "DGP.7",
+    "target": "ASP.8"
+  },
+  {
+    "source": "ASP.4",
+    "target": "ASP.8"
+  },
+  {
+    "source": "ASP.3",
+    "target": "ASP.8"
+  },
+  {
+    "source": "DSP.6",
+    "target": "ASP.8"
+  },
+  {
+    "source": "DSP.8",
+    "target": "ASP.8"
+  }
+]

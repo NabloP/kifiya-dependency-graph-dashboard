@@ -1,0 +1,25 @@
+DOMAIN_ID,DOMAIN_NAME,CATEGORY,CURRENT_MATURITY,TARGET_MATURITY,TIER_GROUP,COLOR_HEX,BORDER_HEX,PRIORITIZATION,NOTES
+DSP.1,Data Ingestion & Integration,Data Strategy,2,3,Foundational,#d5e8d4,#82b366,STRATEGIC,Missing consent traceability and SLA controls
+DSP.2,Data Quality & Validation,Data Strategy,1.5,2,Tier 1 Dependency,#d5e8d4,#82b366,OPERATIONAL,No automated validation or stewardship ownership
+DSP.3,Data Lineage & Provenance,Data Strategy,2,3,Tier 1 Dependency,#d5e8d4,#82b366,STRATEGIC,No end-to-end data traceability established
+DSP.4,Platform Reliability & Observability,Data Strategy,2,3,Foundational,#d5e8d4,#82b366,OPERATIONAL,Lack of unified observability across data platforms
+DSP.5,"Master, Reference & Taxonomy Management",Data Strategy,2,3,Tier 1 Dependency,#d5e8d4,#82b366,STRATEGIC,No shared taxonomy or consistent reference data
+DSP.6,Business Glossary & Concept Governance,Data Strategy,1,2,Foundational,#d5e8d4,#82b366,OPERATIONAL,No formal glossary or shared business definitions
+DSP.7,Analytics Enablement & Reporting,Data Strategy,1.5,2,Tier 2 Dependency,#d5e8d4,#82b366,DEFER,Limited self-service BI and inconsistent metrics
+DSP.8,Data Stewardship & Adoption,Data Strategy,2,3,Tier 1 Dependency,#d5e8d4,#82b366,STRATEGIC,No stewardship framework driving adoption
+DGP.1,"Consent, Privacy & Regulatory Alignment",Data Governance,1,2,Tier 1 Dependency,#dae8fc,#6c8ebf,OPERATIONAL,No enforceable privacy controls or consent capture
+DGP.2,Access Control & Security Governance,Data Governance,2,3,Foundational,#dae8fc,#6c8ebf,DEFER,No role-based access review or enforcement
+DGP.3,Policy & Standardization Frameworks,Data Governance,1,2,Foundational,#dae8fc,#6c8ebf,BLOCKER,No cross-functional policy adoption or governance
+DGP.4,Audit Readiness & Compliance Monitoring,Data Governance,1.5,2,Tier 2 Dependency,#dae8fc,#6c8ebf,OPERATIONAL,No proactive audit trail or compliance monitoring
+DGP.5,Control Remediation & Incident Response,Data Governance,2,3,Tier 2 Dependency,#dae8fc,#6c8ebf,OPERATIONAL,No structured remediation or incident response plans
+DGP.6,Role Clarity & Accountability Structures,Data Governance,1,2,Foundational,#dae8fc,#6c8ebf,BLOCKER,No documented ownership or escalation pathways
+DGP.7,Change Management & Version Governance,Data Governance,1.5,2,Tier 1 Dependency,#dae8fc,#6c8ebf,BLOCKER,No formal change control or version management
+DGP.8,Ethical & Responsible Use Oversight,Data Governance,1,2,Compilatory,#dae8fc,#6c8ebf,STRATEGIC,No oversight of ethical risks or responsible AI use
+ASP.1,AI Strategy Alignment & Stewardship,AI Strategy,1,2,Foundational,#ffe6cc,#d79b00,STRATEGIC,No strategic AI alignment or lifecycle governance
+ASP.2,Model Lifecycle & Versioning,AI Strategy,1.5,2,Tier 2 Dependency,#ffe6cc,#d79b00,OPERATIONAL,"No model versioning, deployment, or rollback process"
+ASP.3,Explainability & Stakeholder Justification,AI Strategy,2,3,Tier 1 Dependency,#ffe6cc,#d79b00,STRATEGIC,No explainability frameworks or stakeholder trust
+ASP.4,Performance Monitoring & Alerting,AI Strategy,1,2,Tier 1 Dependency,#ffe6cc,#d79b00,OPERATIONAL,No active AI model performance or drift monitoring
+ASP.5,Fairness & Segment-Aware Design,AI Strategy,1,2,Tier 2 Dependency,#ffe6cc,#d79b00,STRATEGIC,No fairness evaluation or bias mitigation in design
+ASP.6,ML Infrastructure & Tooling,AI Strategy,2,3,Tier 1 Dependency,#ffe6cc,#d79b00,OPERATIONAL,Fragmented AI tooling and lack of scalable infra
+ASP.7,Governance & Audit of AI Controls,AI Strategy,1,2,Compilatory,#ffe6cc,#d79b00,OPERATIONAL,No AI-specific control governance or audit readiness
+ASP.8,Emerging AI Technologies & Innovation,AI Strategy,2,3,Foundational,#ffe6cc,#d79b00,STRATEGIC,No structured innovation governance or guardrails

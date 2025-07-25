@@ -1,0 +1,17 @@
+# Core Dash and Data Handling
+dash
+pandas
+numpy
+networkx
+plotly
+
+# Web Server for Deployment
+gunicorn
+
+# You can specify versions if you wish for reproducibility, e.g.:
+# dash==2.16.1
+# pandas==2.2.0
+# numpy==1.26.4
+# networkx==3.2.1
+# plotly==5.19.0
+# gunicorn==22.0.0
