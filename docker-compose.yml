@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  kifiya-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: kifiya-maturity-graph
+    ports:
+      - "9885:9885"
+    environment:
+      - PYTHONPATH=/app
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9885/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    # Optional: Mount data directory if you want to update CSV files without rebuilding
+    # volumes:
+    #   - ./data:/app/data:ro
+    
+    # Optional: Resource limits
+    deploy:
+      resources:
+        limits:
+          memory: 1G
+          cpus: '0.5'
+        reservations:
+          memory: 512M
+          cpus: '0.25'
